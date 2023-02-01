@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +18,40 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-d {
+  margin-bottom: -7vh;
+  position: relative;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-m {
+  background-color: black;
+}
+
+.carousel-caption-d {
+  margin-bottom: 5%;
+}
+
+.carousel-caption-d Button {
+  background-color: #cc4400;
+  border:2px solid transparent
+}
+
+.searchC {
+  display:flex;
+  justify-content: center;
+}
+
+.searchC-icon {
+  margin-left: -3vh;
+  position: relative;
+  z-index: 1;
+  margin-top: 1vh;
+  font-size:20px
+}
+
+.trending-card:hover {
+  background-color: #cc4400;
+  position:relative;
+  zIndex:1
 }
